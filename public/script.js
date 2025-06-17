@@ -1,4 +1,4 @@
-const csvURL = 'https://raw.githubusercontent.com/zie2store/contoh/refs/heads/main/assets/contoh.txt';
+const csvURL = 'https://raw.githubusercontent.com/zie2store/contoh/main/assets/contoh.txt';
 
 // Converts title to slug format
 function slugify(text) {
