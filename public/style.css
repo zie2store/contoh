@@ -6,11 +6,15 @@ body {
   background: #f9f9f9;
 }
 
-#doc-thumbnail {
+#thumb {
   width: 100%;
-  height: auto;
+  height: 300px; /* consistent with related-post thumbnails */
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
+
 
 .related-grid {
   display: grid;
