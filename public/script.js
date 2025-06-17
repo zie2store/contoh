@@ -35,7 +35,7 @@ fetch(csvUrl)
     document.querySelector("#thumb").src = matched.Thumbnail;
     document.querySelector("#desc").textContent =
       matched.Description + "\n\n" +
-      `A document entitled '${matched.Title}' is written by '${matched.Author}', consisting of '${matched.Slides}' pages. It was uploaded on '${matched.UploadDate}' and has been viewed or downloaded for '${matched.Views}' times. Even, it receives '${matched.Likes}' likes from '${matched.Title}' readers. The document with ID '${matched.ID}' can be seen below.`;
+      `A document entitled ${matched.Title} is written by ${matched.Author}, consisting of ${matched.Slides} pages or slides. It was uploaded on ${matched.UploadDate} and has been viewed or downloaded for ${matched.Views} times. Even, it receives ${matched.Likes} likes from the readers of ${matched.Title}. The document with ID ${matched.ID} can be seen below.`;
     document.querySelector("#iframe").src = matched.IframeURL + "?startSlide=1";
 
     // --- Generate Related Posts ---
