@@ -5,7 +5,12 @@ body {
   color: #333;
   line-height: 1.6;
   background-color: #fafafa;
-  max-width: 900px;
+}
+
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 
