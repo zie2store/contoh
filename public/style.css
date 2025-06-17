@@ -10,6 +10,7 @@ body {
 main {
   display: flex;
   justify-content: center;
+  max-width: 960px;
 }
 
 .container {
