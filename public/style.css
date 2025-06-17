@@ -7,6 +7,11 @@ body {
   background-color: #fafafa;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
