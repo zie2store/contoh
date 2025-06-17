@@ -1,6 +1,6 @@
 const urlParams = new URLSearchParams(window.location.search);
-const queryString = urlParams.toString(); // e.g., "30943690-proposal-kkn"
-const docId = queryString.split('-')[0]; // extract ID before first dash
+const queryString = urlParams.toString();
+const docId = queryString.split('-')[0];
 
 console.log("🔍 Query string:", queryString);
 console.log("🔍 Extracted document ID:", docId);
@@ -19,7 +19,6 @@ fetch(csvUrl)
       headers.forEach((h, i) => {
         obj[h] = (parts[i] || "").replace(/^"|"$/g, "").trim();
       });
-      if (index < 3) console.log("📄 Sample row", index + 1, obj); // show first 3 rows
       return obj;
     });
 
@@ -31,29 +30,37 @@ fetch(csvUrl)
       return;
     }
 
-    // Set document content
+    // --- Display Main Content ---
     document.querySelector("h1").textContent = matched.Title;
     document.querySelector("#thumb").src = matched.Thumbnail;
     document.querySelector("#desc").textContent =
       matched.Description + "\n\n" +
       `A document entitled '${matched.Title}' is written by '${matched.Author}', consisting of '${matched.Slides}' pages. It was uploaded on '${matched.UploadDate}' and has been viewed or downloaded for '${matched.Views}' times. Even, it receives '${matched.Likes}' likes from '${matched.Title}' readers. The document with ID '${matched.ID}' can be seen below.`;
-
     document.querySelector("#iframe").src = matched.IframeURL + "?startSlide=1";
 
-    // Related posts
-    const related = data
-      .filter(item => item.ID !== matched.ID && matched.Title.toLowerCase().includes(item.Title.split(' ')[0].toLowerCase()))
+    // --- Generate Related Posts ---
+    const titleWords = matched.Title.toLowerCase().split(/\s+/).filter(w => w.length > 3);
+    const relevanceScores = data
+      .filter(item => item.ID !== matched.ID)
+      .map(item => {
+        const otherTitle = item.Title.toLowerCase();
+        const score = titleWords.reduce((acc, word) => acc + (otherTitle.includes(word) ? 1 : 0), 0);
+        return { ...item, score };
+      })
+      .filter(item => item.score > 0)
+      .sort((a, b) => b.score - a.score)
       .slice(0, 9);
 
     const grid = document.querySelector("#related");
-    related.forEach(item => {
+    grid.innerHTML = ""; // clear first
+    relevanceScores.forEach(item => {
       const slug = item.Title.toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '');
       const link = `slideshow.html?${item.ID}-${slug}`;
       const div = document.createElement("div");
       div.className = "related-item";
       div.innerHTML = `
         <a href="${link}">
-          <img src="${item.Thumbnail}" alt="${item.Title}">
+          <img src="${item.Thumbnail}" alt="${item.Title}" />
           <h4>${item.Title}</h4>
           <p>${item.Description.slice(0, 100)}...</p>
         </a>`;
