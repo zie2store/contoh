@@ -2,28 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Document Viewer</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slideshow Viewer</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <main>
     <div class="container">
-      <h1 id="title">Loading...</h1>
-
-      <div class="centered-media">
-        <img id="thumb" src="" alt="Document Thumbnail" />
-      </div>
-
+      <h1 id="title">Loading title...</h1>
       <p id="desc">Loading description...</p>
 
       <div class="centered-media">
-        <iframe id="iframe" src="" width="100%" height="600" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <img id="thumb" src="" alt="Thumbnail" />
       </div>
 
+      <iframe id="iframe" src="" frameborder="0" allowfullscreen>IFRAME</iframe>
+
       <h2>Related Posts</h2>
-      <div id="related" class="related-grid"></div>
+      <div class="related-grid" id="related"></div>
     </div>
   </main>
 
