@@ -7,20 +7,21 @@ console.log("🔍 Extracted document ID:", docId);
 
 const csvUrl = "https://raw.githubusercontent.com/zie2store/contoh/refs/heads/main/assets/contoh.csv";
 
-// Clean title: replace dot with space, capitalize each word
+// Clean title: replace dot and underscore with space, capitalize each word
 function cleanTitle(title) {
   return title
-    .replace(/\./g, ' ')
+    .replace(/[._]/g, ' ')
     .split(/\s+/)
     .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join(' ');
 }
 
-// Trim text without breaking words
+// Trim description cleanly (avoid cutting mid-word)
 function trimText(text, maxLength) {
   if (text.length <= maxLength) return text;
-  const trimmed = text.substr(0, maxLength);
-  return trimmed.substr(0, trimmed.lastIndexOf(" ")) + "...";
+  const trimmed = text.substring(0, maxLength);
+  const lastSpace = trimmed.lastIndexOf(" ");
+  return trimmed.substring(0, lastSpace) + "...";
 }
 
 fetch(csvUrl)
@@ -48,8 +49,9 @@ fetch(csvUrl)
 
     const cleanedTitle = cleanTitle(matched.Title);
 
-    // --- Update Meta ---
+    // --- Meta Title and Description ---
     document.title = `[PDF] ${cleanedTitle} | Contoh Proposal`;
+
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
       metaDesc.setAttribute("content", matched.Description);
@@ -60,31 +62,32 @@ fetch(csvUrl)
       document.head.appendChild(meta);
     }
 
-    // --- Main Display ---
+    // --- Main Document View ---
     document.querySelector("h1").textContent = cleanedTitle;
     document.querySelector("#thumb").src = matched.Thumbnail;
     document.querySelector("#desc").textContent =
       matched.Description + "\n\n" +
       `A document entitled ${cleanedTitle} is written by ${matched.Author}, consisting of ${matched.Slides} pages or slides. It was uploaded on ${matched.UploadDate} and has been viewed or downloaded for ${matched.Views} times. Even, it receives ${matched.Likes} likes from the readers of ${cleanedTitle}. The document with ID ${matched.ID} can be seen below.`;
-    document.querySelector("#iframe").src = matched.IframeURL + "?startSlide=1";
+    document.querySelector("#iframe").src = matched.IframeURL + "?startSlide=2";
 
+    // --- Related Heading ---
     const relatedHeading = document.querySelector("#related-heading");
     if (relatedHeading) {
       relatedHeading.textContent = `Contoh Proposal yang Berkaitan dengan ${cleanedTitle}`;
     }
 
-    // --- Related Posts ---
-    const titleWords = matched.Title.toLowerCase().replace(/\./g, ' ').split(/\s+/).filter(w => w.length > 3);
+    // --- Related Posts by title relevance ---
+    const titleWords = matched.Title.toLowerCase().replace(/[._]/g, ' ').split(/\s+/).filter(w => w.length > 3);
     const relevanceScores = data
       .filter(item => item.ID !== matched.ID)
       .map(item => {
-        const otherTitle = item.Title.toLowerCase().replace(/\./g, ' ');
+        const otherTitle = item.Title.toLowerCase().replace(/[._]/g, ' ');
         const score = titleWords.reduce((acc, word) => acc + (otherTitle.includes(word) ? 1 : 0), 0);
         return { ...item, score };
       })
       .filter(item => item.score > 0)
       .sort((a, b) => b.score - a.score)
-      .slice(0, 12);
+      .slice(0, 9);
 
     const grid = document.querySelector("#related");
     grid.innerHTML = "";
@@ -100,6 +103,7 @@ fetch(csvUrl)
         <p>${trimText(item.Description, 300)}</p>`;
       grid.appendChild(div);
     });
+
   })
   .catch(error => {
     console.error("❌ Failed to load or parse CSV:", error);
