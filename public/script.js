@@ -62,7 +62,7 @@ fetch(csvUrl)
         <a href="${link}">
           <img src="${item.Thumbnail}" alt="${item.Title}" />
           <h4>${item.Title}</h4>
-          <p>${item.Description.slice(0, 160)}...</p>
+          <p>${item.Description.slice(0, 200)}...</p>
         </a>`;
       grid.appendChild(div);
     });
