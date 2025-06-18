@@ -71,4 +71,55 @@ body {
   line-height: 1.4em;
 }
 
+//responsive views
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  #thumb {
+    height: auto;
+    max-height: 300px;
+  }
+
+  iframe#iframe {
+    height: 300px;
+  }
+
+  .related-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .related-item h4,
+  .related-item p {
+    -webkit-line-clamp: unset;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  #thumb {
+    max-height: 220px;
+  }
+
+  iframe#iframe {
+    height: 250px;
+  }
+
+  h1, h2 {
+    font-size: 1.4rem;
+  }
+
+  .related-item h4 {
+    font-size: 14px;
+  }
+
+  .related-item p {
+    font-size: 13px;
+  }
+}
+
 
