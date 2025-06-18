@@ -63,11 +63,11 @@ body {
   color: #666;
   margin: 0 10px 10px 10px;
   display: -webkit-box;
-  -webkit-line-clamp: 4;         /* max 4 lines */
+  -webkit-line-clamp: 6;         /* max 4 lines */
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  height: 5.6em;                 /* 1.4em line-height x 4 lines */
+  height: 8.4em;                 /* 1.4em line-height x 4 lines */
   line-height: 1.4em;
 }
 
