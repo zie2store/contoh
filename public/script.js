@@ -59,7 +59,7 @@ fetch(csvUrl)
     document.querySelector("#desc").textContent =
       matched.Description + "\n\n" +
       `A document entitled ${cleanedTitle} is written by ${matched.Author}, consisting of ${matched.Slides} pages or slides. It was uploaded on ${matched.UploadDate} and has been viewed or downloaded for ${matched.Views} times. Even, it receives ${matched.Likes} likes from the readers of ${cleanedTitle}. The document with ID ${matched.ID} can be seen below.`;
-    document.querySelector("#iframe").src = matched.IframeURL + "?startSlide=1";
+    document.querySelector("#iframe").src = matched.IframeURL + "?startSlide=2";
 
     const relatedHeading = document.querySelector("#related-heading");
     if (relatedHeading) {
