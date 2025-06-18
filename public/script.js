@@ -16,6 +16,13 @@ function cleanTitle(title) {
     .join(' ');
 }
 
+// Trim text without breaking words
+function trimText(text, maxLength) {
+  if (text.length <= maxLength) return text;
+  const trimmed = text.substr(0, maxLength);
+  return trimmed.substr(0, trimmed.lastIndexOf(" ")) + "...";
+}
+
 fetch(csvUrl)
   .then(res => res.text())
   .then(csv => {
@@ -59,7 +66,7 @@ fetch(csvUrl)
     document.querySelector("#desc").textContent =
       matched.Description + "\n\n" +
       `A document entitled ${cleanedTitle} is written by ${matched.Author}, consisting of ${matched.Slides} pages or slides. It was uploaded on ${matched.UploadDate} and has been viewed or downloaded for ${matched.Views} times. Even, it receives ${matched.Likes} likes from the readers of ${cleanedTitle}. The document with ID ${matched.ID} can be seen below.`;
-    document.querySelector("#iframe").src = matched.IframeURL + "?startSlide=2";
+    document.querySelector("#iframe").src = matched.IframeURL + "?startSlide=1";
 
     const relatedHeading = document.querySelector("#related-heading");
     if (relatedHeading) {
@@ -89,8 +96,8 @@ fetch(csvUrl)
         <a href="slideshow.html?${item.ID}-${slug}">
           <img src="${item.Thumbnail}" alt="${cleanTitle(item.Title)}" />
           <h4>${cleanTitle(item.Title)}</h4>
-          <p>${item.Description.slice(0, 200)}...</p>
-        </a>`;
+        </a>
+        <p>${trimText(item.Description, 300)}</p>`;
       grid.appendChild(div);
     });
   })
