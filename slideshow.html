@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Document Viewer</title>
-  <link rel="stylesheet" href="/public/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <main>
-  <div id="container">
-  <div id="viewer">
-    <h1>Loading...</h1>
-    <img id="thumb">
-    <p id="desc"></p>
-    <iframe id="iframe" width="100%" height="600" frameborder="0" style="border:1px solid #CCC;"></iframe>
+    <div class="container">
+      <h1 id="title">Loading...</h1>
 
-    <h2>Related Posts</h2>
-<div id="related" class="related-grid"></div>
-  </div>
-  <script src="/public/script.js"></script>
-  </div>
+      <div class="centered-media">
+        <img id="thumb" src="" alt="Document Thumbnail" />
+      </div>
+
+      <p id="desc">Loading description...</p>
+
+      <div class="centered-media">
+        <iframe id="iframe" src="" width="100%" height="600" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      </div>
+
+      <h2>Related Posts</h2>
+      <div id="related" class="related-grid"></div>
+    </div>
   </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
