@@ -84,7 +84,7 @@ fetch(csvUrl)
       })
       .filter(item => item.score > 0)
       .sort((a, b) => b.score - a.score)
-      .slice(0, 9);
+      .slice(0, 12);
 
     const grid = document.querySelector("#related");
     grid.innerHTML = "";
