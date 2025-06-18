@@ -77,17 +77,17 @@ fetch(csvUrl)
     }
 
     // --- Related Posts by title relevance ---
-    const titleWords = matched.Title.toLowerCase().replace(/[._]/g, ' ').split(/\s+/).filter(w => w.length > 3);
+    const titleWords = matched.Title.toLowerCase().replace(/[._-]/g, ' ').split(/\s+/).filter(w => w.length > 3);
     const relevanceScores = data
       .filter(item => item.ID !== matched.ID)
       .map(item => {
-        const otherTitle = item.Title.toLowerCase().replace(/[._]/g, ' ');
+        const otherTitle = item.Title.toLowerCase().replace(/[._-]/g, ' ');
         const score = titleWords.reduce((acc, word) => acc + (otherTitle.includes(word) ? 1 : 0), 0);
         return { ...item, score };
       })
       .filter(item => item.score > 0)
       .sort((a, b) => b.score - a.score)
-      .slice(0, 9);
+      .slice(0, 6);
 
     const grid = document.querySelector("#related");
     grid.innerHTML = "";
