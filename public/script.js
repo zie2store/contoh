@@ -10,7 +10,7 @@ const csvUrl = "https://raw.githubusercontent.com/zie2store/contoh/refs/heads/ma
 // Clean title: replace dot with space, capitalize each word
 function cleanTitle(title) {
   return title
-    .replace(/\./g, ' ') // replace dots with spaces
+    .replace(/\./g, ' ')
     .split(/\s+/)
     .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join(' ');
@@ -41,7 +41,7 @@ fetch(csvUrl)
 
     const cleanedTitle = cleanTitle(matched.Title);
 
-    // --- Update Page Metadata ---
+    // --- Update Meta ---
     document.title = `[PDF] ${cleanedTitle} | Contoh Proposal`;
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
@@ -53,7 +53,7 @@ fetch(csvUrl)
       document.head.appendChild(meta);
     }
 
-    // --- Main Content ---
+    // --- Main Display ---
     document.querySelector("h1").textContent = cleanedTitle;
     document.querySelector("#thumb").src = matched.Thumbnail;
     document.querySelector("#desc").textContent =
@@ -80,16 +80,15 @@ fetch(csvUrl)
       .slice(0, 9);
 
     const grid = document.querySelector("#related");
-    grid.innerHTML = ""; // clear first
+    grid.innerHTML = "";
     relevanceScores.forEach(item => {
       const slug = item.Title.toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '');
-      const link = `slideshow.html?${item.ID}-${slug}`;
       const div = document.createElement("div");
       div.className = "related-item";
       div.innerHTML = `
-        <a href="${link}">
-          <img src="${item.Thumbnail}" alt="${item.Title}" />
-          <h4>${item.Title}</h4>
+        <a href="slideshow.html?${item.ID}-${slug}">
+          <img src="${item.Thumbnail}" alt="${cleanTitle(item.Title)}" />
+          <h4>${cleanTitle(item.Title)}</h4>
           <p>${item.Description.slice(0, 200)}...</p>
         </a>`;
       grid.appendChild(div);
