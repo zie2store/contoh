@@ -7,13 +7,22 @@ console.log("🔍 Extracted document ID:", docId);
 
 const csvUrl = "https://raw.githubusercontent.com/zie2store/contoh/refs/heads/main/assets/contoh.csv";
 
+// Clean title: replace dot with space, capitalize each word
+function cleanTitle(title) {
+  return title
+    .replace(/\./g, ' ') // replace dots with spaces
+    .split(/\s+/)
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(' ');
+}
+
 fetch(csvUrl)
   .then(res => res.text())
   .then(csv => {
     const lines = csv.trim().split('\n');
     const headers = lines[0].split(',').map(h => h.trim());
 
-    const data = lines.slice(1).map((line, index) => {
+    const data = lines.slice(1).map(line => {
       const parts = line.match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g) || [];
       const obj = {};
       headers.forEach((h, i) => {
@@ -30,20 +39,39 @@ fetch(csvUrl)
       return;
     }
 
-    // --- Display Main Content ---
-    document.querySelector("h1").textContent = matched.Title;
+    const cleanedTitle = cleanTitle(matched.Title);
+
+    // --- Update Page Metadata ---
+    document.title = `[PDF] ${cleanedTitle} | Contoh Proposal`;
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      metaDesc.setAttribute("content", matched.Description);
+    } else {
+      const meta = document.createElement("meta");
+      meta.name = "description";
+      meta.content = matched.Description;
+      document.head.appendChild(meta);
+    }
+
+    // --- Main Content ---
+    document.querySelector("h1").textContent = cleanedTitle;
     document.querySelector("#thumb").src = matched.Thumbnail;
     document.querySelector("#desc").textContent =
       matched.Description + "\n\n" +
-      `A document entitled ${matched.Title} is written by ${matched.Author}, consisting of ${matched.Slides} pages or slides. It was uploaded on ${matched.UploadDate} and has been viewed or downloaded for ${matched.Views} times. Even, it receives ${matched.Likes} likes from the readers of ${matched.Title}. The document with ID ${matched.ID} can be seen below.`;
+      `A document entitled ${cleanedTitle} is written by ${matched.Author}, consisting of ${matched.Slides} pages or slides. It was uploaded on ${matched.UploadDate} and has been viewed or downloaded for ${matched.Views} times. Even, it receives ${matched.Likes} likes from the readers of ${cleanedTitle}. The document with ID ${matched.ID} can be seen below.`;
     document.querySelector("#iframe").src = matched.IframeURL + "?startSlide=1";
 
-    // --- Generate Related Posts ---
-    const titleWords = matched.Title.toLowerCase().split(/\s+/).filter(w => w.length > 3);
+    const relatedHeading = document.querySelector("#related-heading");
+    if (relatedHeading) {
+      relatedHeading.textContent = `Contoh Proposal yang Berkaitan dengan ${cleanedTitle}`;
+    }
+
+    // --- Related Posts ---
+    const titleWords = matched.Title.toLowerCase().replace(/\./g, ' ').split(/\s+/).filter(w => w.length > 3);
     const relevanceScores = data
       .filter(item => item.ID !== matched.ID)
       .map(item => {
-        const otherTitle = item.Title.toLowerCase();
+        const otherTitle = item.Title.toLowerCase().replace(/\./g, ' ');
         const score = titleWords.reduce((acc, word) => acc + (otherTitle.includes(word) ? 1 : 0), 0);
         return { ...item, score };
       })
@@ -66,7 +94,6 @@ fetch(csvUrl)
         </a>`;
       grid.appendChild(div);
     });
-
   })
   .catch(error => {
     console.error("❌ Failed to load or parse CSV:", error);
