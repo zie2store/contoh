@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>Document Viewer</title>
   <link rel="stylesheet" href="/public/style.css">
 </head>
 <body>
   <div id="viewer">
-    <h1 id="doc-title"></h1>
-    <img id="doc-thumbnail" alt="Thumbnail">
-    <p id="doc-description"></p>
-    <div id="iframe-container"></div>
+    <h1>Loading...</h1>
+    <img id="thumb" style="width:100%;height:auto;">
+    <p id="desc"></p>
+    <iframe id="iframe" width="100%" height="600" frameborder="0" style="border:1px solid #CCC;"></iframe>
+    <h2>Related Posts</h2>
+    <div id="related" class="grid"></div>
   </div>
-
-  <h2>Related Posts</h2>
-  <div id="related-posts" class="grid-container"></div>
-
-  <script src="/public/script.js"></script>
+  <script src="public/script.js"></script>
 </body>
 </html>
