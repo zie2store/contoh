@@ -10,7 +10,7 @@ const csvUrl = "https://raw.githubusercontent.com/zie2store/contoh/refs/heads/ma
 // Clean title: replace dot and underscore with space, capitalize each word
 function cleanTitle(title) {
   return title
-    .replace(/[._]/g, ' ')
+    .replace(/[._-]/g, ' ')
     .split(/\s+/)
     .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join(' ');
