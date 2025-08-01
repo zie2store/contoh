@@ -1,0 +1,3342 @@
+[
+  {
+    "no": 1,
+    "id": 51,
+    "channelName": "ABC USA"
+  },
+  {
+    "no": 2,
+    "id": 302,
+    "channelName": "A&E USA"
+  },
+  {
+    "no": 3,
+    "id": 303,
+    "channelName": "AMC USA"
+  },
+  {
+    "no": 4,
+    "id": 304,
+    "channelName": "Animal Planet"
+  },
+  {
+    "no": 5,
+    "id": 666,
+    "channelName": "ACC Network USA"
+  },
+  {
+    "no": 6,
+    "id": 123,
+    "channelName": "Astro SuperSport 1"
+  },
+  {
+    "no": 7,
+    "id": 124,
+    "channelName": "Astro SuperSport 2"
+  },
+  {
+    "no": 8,
+    "id": 125,
+    "channelName": "Astro SuperSport 3"
+  },
+  {
+    "no": 9,
+    "id": 126,
+    "channelName": "Astro SuperSport 4"
+  },
+  {
+    "no": 10,
+    "id": 134,
+    "channelName": "Arena Sport 1 Premium"
+  },
+  {
+    "no": 11,
+    "id": 135,
+    "channelName": "Arena Sport 2 Premium"
+  },
+  {
+    "no": 12,
+    "id": 139,
+    "channelName": "Arena Sport 3 Premium"
+  },
+  {
+    "no": 13,
+    "id": 429,
+    "channelName": "Arena Sport 1 Serbia"
+  },
+  {
+    "no": 14,
+    "id": 430,
+    "channelName": "Arena Sport 2 Serbia"
+  },
+  {
+    "no": 15,
+    "id": 431,
+    "channelName": "Arena Sport 3 Serbia"
+  },
+  {
+    "no": 16,
+    "id": 581,
+    "channelName": "Arena Sport 4 Serbia"
+  },
+  {
+    "no": 17,
+    "id": 432,
+    "channelName": "Arena Sport 1 Croatia"
+  },
+  {
+    "no": 18,
+    "id": 433,
+    "channelName": "Arena Sport 2 Croatia"
+  },
+  {
+    "no": 19,
+    "id": 434,
+    "channelName": "Arena Sport 3 Croatia"
+  },
+  {
+    "no": 20,
+    "id": 580,
+    "channelName": "Arena Sport 4 Croatia"
+  },
+  {
+    "no": 21,
+    "id": 781,
+    "channelName": "Alkass One"
+  },
+  {
+    "no": 22,
+    "id": 782,
+    "channelName": "Alkass Two"
+  },
+  {
+    "no": 23,
+    "id": 783,
+    "channelName": "Alkass Three"
+  },
+  {
+    "no": 24,
+    "id": 784,
+    "channelName": "Alkass Four"
+  },
+  {
+    "no": 25,
+    "id": 785,
+    "channelName": "ABS-CBN"
+  },
+  {
+    "no": 26,
+    "id": 579,
+    "channelName": "Arena Sport 1 BiH"
+  },
+  {
+    "no": 27,
+    "id": 600,
+    "channelName": "Abu Dhabi Sports 1 UAE"
+  },
+  {
+    "no": 28,
+    "id": 601,
+    "channelName": "Abu Dhabi Sports 2 UAE"
+  },
+  {
+    "no": 29,
+    "id": 609,
+    "channelName": "Abu Dhabi Sports 1 Premium"
+  },
+  {
+    "no": 30,
+    "id": 610,
+    "channelName": "Abu Dhabi Sports 2 Premium"
+  },
+  {
+    "no": 31,
+    "id": 370,
+    "channelName": "Astro Cricket"
+  },
+  {
+    "no": 32,
+    "id": 531,
+    "channelName": "Antena 3 Spain"
+  },
+  {
+    "no": 33,
+    "id": 664,
+    "channelName": "ACC Network USA"
+  },
+  {
+    "no": 34,
+    "id": 295,
+    "channelName": "Adult Swim"
+  },
+  {
+    "no": 35,
+    "id": 717,
+    "channelName": "AXN Movies Portugal"
+  },
+  {
+    "no": 36,
+    "id": 725,
+    "channelName": "Arte DE"
+  },
+  {
+    "no": 37,
+    "id": 742,
+    "channelName": "AXS TV USA"
+  },
+  {
+    "no": 38,
+    "id": 766,
+    "channelName": "ABCNY USA"
+  },
+  {
+    "no": 39,
+    "id": 61,
+    "channelName": "beIN Sports MENA English 1"
+  },
+  {
+    "no": 40,
+    "id": 90,
+    "channelName": "beIN Sports MENA English 2"
+  },
+  {
+    "no": 41,
+    "id": 46,
+    "channelName": "beIN Sports MENA English 3"
+  },
+  {
+    "no": 42,
+    "id": 91,
+    "channelName": "beIN Sports MENA 1"
+  },
+  {
+    "no": 43,
+    "id": 92,
+    "channelName": "beIN Sports MENA 2"
+  },
+  {
+    "no": 44,
+    "id": 93,
+    "channelName": "beIN Sports MENA 3"
+  },
+  {
+    "no": 45,
+    "id": 94,
+    "channelName": "beIN Sports MENA 4"
+  },
+  {
+    "no": 46,
+    "id": 95,
+    "channelName": "beIN Sports MENA 5"
+  },
+  {
+    "no": 47,
+    "id": 96,
+    "channelName": "beIN Sports MENA 6"
+  },
+  {
+    "no": 48,
+    "id": 97,
+    "channelName": "beIN Sports MENA 7"
+  },
+  {
+    "no": 49,
+    "id": 98,
+    "channelName": "beIN Sports MENA Premium 1"
+  },
+  {
+    "no": 50,
+    "id": 99,
+    "channelName": "beIN Sports MENA Premium 2"
+  },
+  {
+    "no": 51,
+    "id": 100,
+    "channelName": "beIN Sports MENA Premium 3"
+  },
+  {
+    "no": 52,
+    "id": 494,
+    "channelName": "beIN Sports MAX 4 France"
+  },
+  {
+    "no": 53,
+    "id": 495,
+    "channelName": "beIN Sports MAX 5 France"
+  },
+  {
+    "no": 54,
+    "id": 496,
+    "channelName": "beIN Sports MAX 6 France"
+  },
+  {
+    "no": 55,
+    "id": 497,
+    "channelName": "beIN Sports MAX 7 France"
+  },
+  {
+    "no": 56,
+    "id": 498,
+    "channelName": "beIN Sports MAX 8 France"
+  },
+  {
+    "no": 57,
+    "id": 499,
+    "channelName": "beIN Sports MAX 9 France"
+  },
+  {
+    "no": 58,
+    "id": 500,
+    "channelName": "beIN Sports MAX 10 France"
+  },
+  {
+    "no": 59,
+    "id": 116,
+    "channelName": "beIN SPORTS 1 France"
+  },
+  {
+    "no": 60,
+    "id": 117,
+    "channelName": "beIN SPORTS 2 France"
+  },
+  {
+    "no": 61,
+    "id": 118,
+    "channelName": "beIN SPORTS 3 France"
+  },
+  {
+    "no": 62,
+    "id": 62,
+    "channelName": "beIN SPORTS 1 Turkey"
+  },
+  {
+    "no": 63,
+    "id": 63,
+    "channelName": "beIN SPORTS 2 Turkey"
+  },
+  {
+    "no": 64,
+    "id": 64,
+    "channelName": "beIN SPORTS 3 Turkey"
+  },
+  {
+    "no": 65,
+    "id": 67,
+    "channelName": "beIN SPORTS 4 Turkey"
+  },
+  {
+    "no": 66,
+    "id": 578,
+    "channelName": "BeIN Sports HD Qatar"
+  },
+  {
+    "no": 67,
+    "id": 425,
+    "channelName": "BeIN SPORTS USA"
+  },
+  {
+    "no": 68,
+    "id": 372,
+    "channelName": "beIN SPORTS en Espa単ol"
+  },
+  {
+    "no": 69,
+    "id": 491,
+    "channelName": "beIN SPORTS Australia 1"
+  },
+  {
+    "no": 70,
+    "id": 492,
+    "channelName": "beIN SPORTS Australia 2"
+  },
+  {
+    "no": 71,
+    "id": 493,
+    "channelName": "beIN SPORTS Australia 3"
+  },
+  {
+    "no": 72,
+    "id": 522,
+    "channelName": "Barca TV Spain"
+  },
+  {
+    "no": 73,
+    "id": 380,
+    "channelName": "Benfica TV PT"
+  },
+  {
+    "no": 74,
+    "id": 648,
+    "channelName": "Boomerang"
+  },
+  {
+    "no": 75,
+    "id": 476,
+    "channelName": "BNT 1 Bulgaria"
+  },
+  {
+    "no": 76,
+    "id": 477,
+    "channelName": "BNT 2 Bulgaria"
+  },
+  {
+    "no": 77,
+    "id": 478,
+    "channelName": "BNT 3 Bulgaria"
+  },
+  {
+    "no": 78,
+    "id": 737,
+    "channelName": "BR Fernsehen DE"
+  },
+  {
+    "no": 79,
+    "id": 479,
+    "channelName": "bTV Bulgaria"
+  },
+  {
+    "no": 80,
+    "id": 481,
+    "channelName": "bTV Action Bulgaria"
+  },
+  {
+    "no": 81,
+    "id": 484,
+    "channelName": "bTV Lady Bulgaria"
+  },
+  {
+    "no": 82,
+    "id": 305,
+    "channelName": "BBC America (BBCA)"
+  },
+  {
+    "no": 83,
+    "id": 306,
+    "channelName": "BET USA"
+  },
+  {
+    "no": 84,
+    "id": 307,
+    "channelName": "Bravo USA"
+  },
+  {
+    "no": 85,
+    "id": 349,
+    "channelName": "BBC News Channel HD"
+  },
+  {
+    "no": 86,
+    "id": 356,
+    "channelName": "BBC One UK"
+  },
+  {
+    "no": 87,
+    "id": 357,
+    "channelName": "BBC Two UK"
+  },
+  {
+    "no": 88,
+    "id": 358,
+    "channelName": "BBC Three UK"
+  },
+  {
+    "no": 89,
+    "id": 359,
+    "channelName": "BBC Four UK"
+  },
+  {
+    "no": 90,
+    "id": 397,
+    "channelName": "BIG TEN Network (BTN USA)"
+  },
+  {
+    "no": 91,
+    "id": 535,
+    "channelName": "Cuatro Spain"
+  },
+  {
+    "no": 92,
+    "id": 354,
+    "channelName": "Channel 4 UK"
+  },
+  {
+    "no": 93,
+    "id": 355,
+    "channelName": "Channel 5 UK"
+  },
+  {
+    "no": 94,
+    "id": 308,
+    "channelName": "CBS Sports Network (CBSSN)"
+  },
+  {
+    "no": 95,
+    "id": 121,
+    "channelName": "Canal+ France"
+  },
+  {
+    "no": 96,
+    "id": 122,
+    "channelName": "Canal+ Sport France"
+  },
+  {
+    "no": 97,
+    "id": 463,
+    "channelName": "Canal+ Foot France"
+  },
+  {
+    "no": 98,
+    "id": 464,
+    "channelName": "Canal+ Sport360"
+  },
+  {
+    "no": 99,
+    "id": 540,
+    "channelName": "Canal 11 Portugal"
+  },
+  {
+    "no": 100,
+    "id": 48,
+    "channelName": "Canal+ Sport Poland"
+  },
+  {
+    "no": 101,
+    "id": 73,
+    "channelName": "Canal+ Sport 2 Poland"
+  },
+  {
+    "no": 102,
+    "id": 75,
+    "channelName": "CANAL+ SPORT 5 Poland"
+  },
+  {
+    "no": 103,
+    "id": 566,
+    "channelName": "Canal+ Premium Poland"
+  },
+  {
+    "no": 104,
+    "id": 567,
+    "channelName": "Canal+ Family Poland"
+  },
+  {
+    "no": 105,
+    "id": 570,
+    "channelName": "Canal+ Seriale Poland"
+  },
+  {
+    "no": 106,
+    "id": 486,
+    "channelName": "Canal+ Sport 1 Afrique"
+  },
+  {
+    "no": 107,
+    "id": 487,
+    "channelName": "Canal+ Sport 2 Afrique"
+  },
+  {
+    "no": 108,
+    "id": 488,
+    "channelName": "Canal+ Sport 3 Afrique"
+  },
+  {
+    "no": 109,
+    "id": 489,
+    "channelName": "Canal+ Sport 4 Afrique"
+  },
+  {
+    "no": 110,
+    "id": 490,
+    "channelName": "Canal+ Sport 5 Afrique"
+  },
+  {
+    "no": 111,
+    "id": 805,
+    "channelName": "CANAL9 Denmark"
+  },
+  {
+    "no": 112,
+    "id": 89,
+    "channelName": "Combate Brasil"
+  },
+  {
+    "no": 113,
+    "id": 747,
+    "channelName": "C More Football Sweden"
+  },
+  {
+    "no": 114,
+    "id": 622,
+    "channelName": "Cosmote Sport 1 HD"
+  },
+  {
+    "no": 115,
+    "id": 623,
+    "channelName": "Cosmote Sport 2 HD"
+  },
+  {
+    "no": 116,
+    "id": 624,
+    "channelName": "Cosmote Sport 3 HD"
+  },
+  {
+    "no": 117,
+    "id": 625,
+    "channelName": "Cosmote Sport 4 HD"
+  },
+  {
+    "no": 118,
+    "id": 626,
+    "channelName": "Cosmote Sport 5 HD"
+  },
+  {
+    "no": 119,
+    "id": 627,
+    "channelName": "Cosmote Sport 6 HD"
+  },
+  {
+    "no": 120,
+    "id": 628,
+    "channelName": "Cosmote Sport 7 HD"
+  },
+  {
+    "no": 121,
+    "id": 629,
+    "channelName": "Cosmote Sport 8 HD"
+  },
+  {
+    "no": 122,
+    "id": 630,
+    "channelName": "Cosmote Sport 9 HD"
+  },
+  {
+    "no": 123,
+    "id": 546,
+    "channelName": "Channel 9 Israel"
+  },
+  {
+    "no": 124,
+    "id": 547,
+    "channelName": "Channel 10 Israe"
+  },
+  {
+    "no": 125,
+    "id": 548,
+    "channelName": "Channel 11 Israel"
+  },
+  {
+    "no": 126,
+    "id": 549,
+    "channelName": "Channel 12 Israel"
+  },
+  {
+    "no": 127,
+    "id": 551,
+    "channelName": "Channel 13 Israel"
+  },
+  {
+    "no": 128,
+    "id": 552,
+    "channelName": "Channel 14 Israel"
+  },
+  {
+    "no": 129,
+    "id": 8111,
+    "channelName": "C More Stars Sweden"
+  },
+  {
+    "no": 130,
+    "id": 812,
+    "channelName": "C More First Sweden"
+  },
+  {
+    "no": 131,
+    "id": 813,
+    "channelName": "C More Hits Sweden"
+  },
+  {
+    "no": 132,
+    "id": 814,
+    "channelName": "C More Series Sweden"
+  },
+  {
+    "no": 133,
+    "id": 748,
+    "channelName": "COZI TV USA"
+  },
+  {
+    "no": 134,
+    "id": 647,
+    "channelName": "CMT USA"
+  },
+  {
+    "no": 135,
+    "id": 52,
+    "channelName": "CBS USA"
+  },
+  {
+    "no": 136,
+    "id": 300,
+    "channelName": "CW USA"
+  },
+  {
+    "no": 137,
+    "id": 309,
+    "channelName": "CNBC USA"
+  },
+  {
+    "no": 138,
+    "id": 310,
+    "channelName": "Comedy Central"
+  },
+  {
+    "no": 139,
+    "id": 339,
+    "channelName": "Cartoon Network"
+  },
+  {
+    "no": 140,
+    "id": 345,
+    "channelName": "CNN USA"
+  },
+  {
+    "no": 141,
+    "id": 374,
+    "channelName": "Cinemax USA"
+  },
+  {
+    "no": 142,
+    "id": 602,
+    "channelName": "CTV Canada"
+  },
+  {
+    "no": 143,
+    "id": 838,
+    "channelName": "CTV 2 Canada"
+  },
+  {
+    "no": 144,
+    "id": 669,
+    "channelName": "Crime+ Investigation USA"
+  },
+  {
+    "no": 145,
+    "id": 696,
+    "channelName": "Comet USA"
+  },
+  {
+    "no": 146,
+    "id": 697,
+    "channelName": "Cooking Channel USA"
+  },
+  {
+    "no": 147,
+    "id": 715,
+    "channelName": "Cleo TV"
+  },
+  {
+    "no": 148,
+    "id": 750,
+    "channelName": "C SPAN 1"
+  },
+  {
+    "no": 149,
+    "id": 767,
+    "channelName": "CBSNY USA"
+  },
+  {
+    "no": 150,
+    "id": 831,
+    "channelName": "Citytv"
+  },
+  {
+    "no": 151,
+    "id": 832,
+    "channelName": "CBC CA"
+  },
+  {
+    "no": 152,
+    "id": 426,
+    "channelName": "DAZN 1 Bar DE"
+  },
+  {
+    "no": 153,
+    "id": 427,
+    "channelName": "DAZN 2 Bar DE"
+  },
+  {
+    "no": 154,
+    "id": 445,
+    "channelName": "DAZN 1 Spain"
+  },
+  {
+    "no": 155,
+    "id": 446,
+    "channelName": "DAZN 2 Spain"
+  },
+  {
+    "no": 156,
+    "id": 447,
+    "channelName": "DAZN 3 Spain"
+  },
+  {
+    "no": 157,
+    "id": 448,
+    "channelName": "DAZN 4 Spain"
+  },
+  {
+    "no": 158,
+    "id": 537,
+    "channelName": "DAZN F1 ES"
+  },
+  {
+    "no": 159,
+    "id": 538,
+    "channelName": "DAZN LaLiga"
+  },
+  {
+    "no": 160,
+    "id": 43,
+    "channelName": "DAZN LaLiga 2"
+  },
+  {
+    "no": 161,
+    "id": 801,
+    "channelName": "DR1 Denmark"
+  },
+  {
+    "no": 162,
+    "id": 802,
+    "channelName": "DR2 Denmark"
+  },
+  {
+    "no": 163,
+    "id": 400,
+    "channelName": "Digi Sport 1 Romania"
+  },
+  {
+    "no": 164,
+    "id": 401,
+    "channelName": "Digi Sport 2 Romania"
+  },
+  {
+    "no": 165,
+    "id": 402,
+    "channelName": "Digi Sport 3 Romania"
+  },
+  {
+    "no": 166,
+    "id": 403,
+    "channelName": "Digi Sport 4 Romania"
+  },
+  {
+    "no": 167,
+    "id": 465,
+    "channelName": "Diema Sport Bulgaria"
+  },
+  {
+    "no": 168,
+    "id": 466,
+    "channelName": "Diema Sport 2 Bulgaria"
+  },
+  {
+    "no": 169,
+    "id": 467,
+    "channelName": "Diema Sport 3 Bulgaria"
+  },
+  {
+    "no": 170,
+    "id": 482,
+    "channelName": "Diema Bulgaria"
+  },
+  {
+    "no": 171,
+    "id": 485,
+    "channelName": "Diema Family Bulgaria"
+  },
+  {
+    "no": 172,
+    "id": 604,
+    "channelName": "Dubai Sports 1 UAE"
+  },
+  {
+    "no": 173,
+    "id": 605,
+    "channelName": "Dubai Sports 2 UAE"
+  },
+  {
+    "no": 174,
+    "id": 606,
+    "channelName": "Dubai Sports 3 UAE"
+  },
+  {
+    "no": 175,
+    "id": 607,
+    "channelName": "Dubai Racing 1 UAE"
+  },
+  {
+    "no": 176,
+    "id": 608,
+    "channelName": "Dubai Racing 2 UAE"
+  },
+  {
+    "no": 177,
+    "id": 786,
+    "channelName": "DSTV Mzansi Magic"
+  },
+  {
+    "no": 178,
+    "id": 827,
+    "channelName": "DSTV M-Net"
+  },
+  {
+    "no": 179,
+    "id": 828,
+    "channelName": "DSTV kykNET & kie"
+  },
+  {
+    "no": 180,
+    "id": 311,
+    "channelName": "Discovery Life Channel"
+  },
+  {
+    "no": 181,
+    "id": 312,
+    "channelName": "Disney Channel"
+  },
+  {
+    "no": 182,
+    "id": 313,
+    "channelName": "Discovery Channel"
+  },
+  {
+    "no": 183,
+    "id": 657,
+    "channelName": "Discovery Family"
+  },
+  {
+    "no": 184,
+    "id": 314,
+    "channelName": "Disney XD"
+  },
+  {
+    "no": 185,
+    "id": 651,
+    "channelName": "Destination America"
+  },
+  {
+    "no": 186,
+    "id": 652,
+    "channelName": "Disney JR"
+  },
+  {
+    "no": 187,
+    "id": 348,
+    "channelName": "Dave"
+  },
+  {
+    "no": 188,
+    "id": 44,
+    "channelName": "ESPN USA"
+  },
+  {
+    "no": 189,
+    "id": 45,
+    "channelName": "ESPN2 USA"
+  },
+  {
+    "no": 190,
+    "id": 316,
+    "channelName": "ESPNU USA"
+  },
+  {
+    "no": 191,
+    "id": 379,
+    "channelName": "ESPN 1 NL"
+  },
+  {
+    "no": 192,
+    "id": 386,
+    "channelName": "ESPN 2 NL"
+  },
+  {
+    "no": 193,
+    "id": 71,
+    "channelName": "Eleven Sports 1 Poland"
+  },
+  {
+    "no": 194,
+    "id": 72,
+    "channelName": "Eleven Sports 2 Poland"
+  },
+  {
+    "no": 195,
+    "id": 428,
+    "channelName": "Eleven Sports 3 Poland"
+  },
+  {
+    "no": 196,
+    "id": 455,
+    "channelName": "Eleven Sports 1 Portugal"
+  },
+  {
+    "no": 197,
+    "id": 456,
+    "channelName": "Eleven Sports 2 Portugal"
+  },
+  {
+    "no": 198,
+    "id": 457,
+    "channelName": "Eleven Sports 3 Portugal"
+  },
+  {
+    "no": 199,
+    "id": 458,
+    "channelName": "Eleven Sports 4 Portugal"
+  },
+  {
+    "no": 200,
+    "id": 459,
+    "channelName": "Eleven Sports 5 Portugal"
+  },
+  {
+    "no": 201,
+    "id": 41,
+    "channelName": "EuroSport 1 UK"
+  },
+  {
+    "no": 202,
+    "id": 42,
+    "channelName": "EuroSport 2 UK"
+  },
+  {
+    "no": 203,
+    "id": 57,
+    "channelName": "EuroSport 1 Poland"
+  },
+  {
+    "no": 204,
+    "id": 58,
+    "channelName": "EuroSport 2 Poland"
+  },
+  {
+    "no": 205,
+    "id": 524,
+    "channelName": "EuroSport 1 Spain"
+  },
+  {
+    "no": 206,
+    "id": 525,
+    "channelName": "EuroSport 2 Spain"
+  },
+  {
+    "no": 207,
+    "id": 878,
+    "channelName": "EuroSport 1 Italy"
+  },
+  {
+    "no": 208,
+    "id": 879,
+    "channelName": "EuroSport 2 Italy"
+  },
+  {
+    "no": 209,
+    "id": 469,
+    "channelName": "Eurosport 1 Bulgaria"
+  },
+  {
+    "no": 210,
+    "id": 470,
+    "channelName": "Eurosport 2 Bulgaria"
+  },
+  {
+    "no": 211,
+    "id": 387,
+    "channelName": "ESPN Premium Argentina"
+  },
+  {
+    "no": 212,
+    "id": 81,
+    "channelName": "ESPN Brasil"
+  },
+  {
+    "no": 213,
+    "id": 82,
+    "channelName": "ESPN2 Brasil"
+  },
+  {
+    "no": 214,
+    "id": 83,
+    "channelName": "ESPN3 Brasil"
+  },
+  {
+    "no": 215,
+    "id": 85,
+    "channelName": "ESPN4 Brasil"
+  },
+  {
+    "no": 216,
+    "id": 149,
+    "channelName": "ESPN SUR"
+  },
+  {
+    "no": 217,
+    "id": 150,
+    "channelName": "ESPN2 SUR"
+  },
+  {
+    "no": 218,
+    "id": 375,
+    "channelName": "ESPN Deportes"
+  },
+  {
+    "no": 219,
+    "id": 288,
+    "channelName": "ESPNews"
+  },
+  {
+    "no": 220,
+    "id": 315,
+    "channelName": "E! Entertainment Television"
+  },
+  {
+    "no": 221,
+    "id": 363,
+    "channelName": "E4 Channel"
+  },
+  {
+    "no": 222,
+    "id": 39,
+    "channelName": "Fox Sports 1 USA"
+  },
+  {
+    "no": 223,
+    "id": 758,
+    "channelName": "Fox Sports 2 USA"
+  },
+  {
+    "no": 224,
+    "id": 756,
+    "channelName": "FOX Soccer Plus"
+  },
+  {
+    "no": 225,
+    "id": 369,
+    "channelName": "Fox Cricket"
+  },
+  {
+    "no": 226,
+    "id": 643,
+    "channelName": "FOX Deportes USA"
+  },
+  {
+    "no": 227,
+    "id": 820,
+    "channelName": "FOX Sports 502 AU"
+  },
+  {
+    "no": 228,
+    "id": 821,
+    "channelName": "FOX Sports 503 AU"
+  },
+  {
+    "no": 229,
+    "id": 822,
+    "channelName": "FOX Sports 504 AU"
+  },
+  {
+    "no": 230,
+    "id": 823,
+    "channelName": "FOX Sports 505 AU"
+  },
+  {
+    "no": 231,
+    "id": 824,
+    "channelName": "FOX Sports 506 AU"
+  },
+  {
+    "no": 232,
+    "id": 825,
+    "channelName": "FOX Sports 507 AU"
+  },
+  {
+    "no": 233,
+    "id": 787,
+    "channelName": "Fox Sports Argentina"
+  },
+  {
+    "no": 234,
+    "id": 788,
+    "channelName": "Fox Sports 2 Argentina"
+  },
+  {
+    "no": 235,
+    "id": 789,
+    "channelName": "Fox Sports 3 Argentina"
+  },
+  {
+    "no": 236,
+    "id": 830,
+    "channelName": "Fox Sports Premium MX"
+  },
+  {
+    "no": 237,
+    "id": 568,
+    "channelName": "FilmBox Premium Poland"
+  },
+  {
+    "no": 238,
+    "id": 757,
+    "channelName": "Fight Network"
+  },
+  {
+    "no": 239,
+    "id": 297,
+    "channelName": "Fox Business"
+  },
+  {
+    "no": 240,
+    "id": 483,
+    "channelName": "FOX HD Bulgaria"
+  },
+  {
+    "no": 241,
+    "id": 54,
+    "channelName": "FOX USA"
+  },
+  {
+    "no": 242,
+    "id": 317,
+    "channelName": "FX USA"
+  },
+  {
+    "no": 243,
+    "id": 298,
+    "channelName": "FXX USA"
+  },
+  {
+    "no": 244,
+    "id": 301,
+    "channelName": "Freeform"
+  },
+  {
+    "no": 245,
+    "id": 347,
+    "channelName": "Fox News"
+  },
+  {
+    "no": 246,
+    "id": 381,
+    "channelName": "FX Movie Channel"
+  },
+  {
+    "no": 247,
+    "id": 665,
+    "channelName": "FYI"
+  },
+  {
+    "no": 248,
+    "id": 688,
+    "channelName": "Film4 UK"
+  },
+  {
+    "no": 249,
+    "id": 744,
+    "channelName": "Fashion TV"
+  },
+  {
+    "no": 250,
+    "id": 751,
+    "channelName": "FETV - Family Entertainment Television"
+  },
+  {
+    "no": 251,
+    "id": 768,
+    "channelName": "FOXNY USA"
+  },
+  {
+    "no": 252,
+    "id": 775,
+    "channelName": "Fox Weather Channel"
+  },
+  {
+    "no": 253,
+    "id": 530,
+    "channelName": "GOL PLAY Spain"
+  },
+  {
+    "no": 254,
+    "id": 318,
+    "channelName": "GOLF Channel USA"
+  },
+  {
+    "no": 255,
+    "id": 319,
+    "channelName": "Game Show Network"
+  },
+  {
+    "no": 256,
+    "id": 292,
+    "channelName": "Gol Mundial 1"
+  },
+  {
+    "no": 257,
+    "id": 687,
+    "channelName": "Gold UK"
+  },
+  {
+    "no": 258,
+    "id": 743,
+    "channelName": "Galavisi贸n USA"
+  },
+  {
+    "no": 259,
+    "id": 699,
+    "channelName": "CBC CA"
+  },
+  {
+    "no": 260,
+    "id": 752,
+    "channelName": "Grit Channel"
+  },
+  {
+    "no": 261,
+    "id": 760,
+    "channelName": "Globo SP"
+  },
+  {
+    "no": 262,
+    "id": 761,
+    "channelName": "Globo RIO"
+  },
+  {
+    "no": 263,
+    "id": 836,
+    "channelName": "Global CA"
+  },
+  {
+    "no": 264,
+    "id": 320,
+    "channelName": "The Hallmark Channel"
+  },
+  {
+    "no": 265,
+    "id": 296,
+    "channelName": "Hallmark Movies & Mysterie"
+  },
+  {
+    "no": 266,
+    "id": 321,
+    "channelName": "HBO USA"
+  },
+  {
+    "no": 267,
+    "id": 689,
+    "channelName": "HBO2 USA"
+  },
+  {
+    "no": 268,
+    "id": 690,
+    "channelName": "HBO Comedy USA"
+  },
+  {
+    "no": 269,
+    "id": 691,
+    "channelName": "HBO Family USA"
+  },
+  {
+    "no": 270,
+    "id": 692,
+    "channelName": "HBO Latino USA"
+  },
+  {
+    "no": 271,
+    "id": 693,
+    "channelName": "HBO Signature USA"
+  },
+  {
+    "no": 272,
+    "id": 694,
+    "channelName": "HBO Zone USA"
+  },
+  {
+    "no": 273,
+    "id": 569,
+    "channelName": "HBO Poland"
+  },
+  {
+    "no": 274,
+    "id": 322,
+    "channelName": "History USA"
+  },
+  {
+    "no": 275,
+    "id": 323,
+    "channelName": "Headline News"
+  },
+  {
+    "no": 276,
+    "id": 382,
+    "channelName": "HGTV"
+  },
+  {
+    "no": 277,
+    "id": 553,
+    "channelName": "HOT3 Israel"
+  },
+  {
+    "no": 278,
+    "id": 740,
+    "channelName": "HR Fernsehen DE"
+  },
+  {
+    "no": 279,
+    "id": 350,
+    "channelName": "ITV 1 UK"
+  },
+  {
+    "no": 280,
+    "id": 351,
+    "channelName": "ITV 2 UK"
+  },
+  {
+    "no": 281,
+    "id": 352,
+    "channelName": "ITV 3 UK"
+  },
+  {
+    "no": 282,
+    "id": 353,
+    "channelName": "ITV 4 UK"
+  },
+  {
+    "no": 283,
+    "id": 854,
+    "channelName": "Italia 1 Italy"
+  },
+  {
+    "no": 284,
+    "id": 324,
+    "channelName": "Investigation Discovery (ID USA)"
+  },
+  {
+    "no": 285,
+    "id": 325,
+    "channelName": "ION USA"
+  },
+  {
+    "no": 286,
+    "id": 656,
+    "channelName": "IFC TV USA"
+  },
+  {
+    "no": 287,
+    "id": 803,
+    "channelName": "Kanal 4 Denmark"
+  },
+  {
+    "no": 288,
+    "id": 804,
+    "channelName": "Kanal 5 Denmark"
+  },
+  {
+    "no": 289,
+    "id": 731,
+    "channelName": "Kabel Eins (Kabel 1) DE"
+  },
+  {
+    "no": 290,
+    "id": 539,
+    "channelName": "LaLiga SmartBank TV"
+  },
+  {
+    "no": 291,
+    "id": 645,
+    "channelName": "L'Equipe France"
+  },
+  {
+    "no": 292,
+    "id": 534,
+    "channelName": "La Sexta Spain"
+  },
+  {
+    "no": 293,
+    "id": 826,
+    "channelName": "Liverpool TV (LFC TV)"
+  },
+  {
+    "no": 294,
+    "id": 326,
+    "channelName": "Lifetime Network"
+  },
+  {
+    "no": 295,
+    "id": 389,
+    "channelName": "Lifetime Movies Network"
+  },
+  {
+    "no": 296,
+    "id": 667,
+    "channelName": "Longhorn Network USA"
+  },
+  {
+    "no": 297,
+    "id": 855,
+    "channelName": "La7 Italy"
+  },
+  {
+    "no": 298,
+    "id": 856,
+    "channelName": "LA7d HD+ Italy"
+  },
+  {
+    "no": 299,
+    "id": 136,
+    "channelName": "Match Football 1 Russia"
+  },
+  {
+    "no": 300,
+    "id": 137,
+    "channelName": "Match Football 2 Russia"
+  },
+  {
+    "no": 301,
+    "id": 138,
+    "channelName": "Match Football 3 Russia"
+  },
+  {
+    "no": 302,
+    "id": 573,
+    "channelName": "Match Premier Russia"
+  },
+  {
+    "no": 303,
+    "id": 127,
+    "channelName": "Match TV Russia"
+  },
+  {
+    "no": 304,
+    "id": 395,
+    "channelName": "МАТЧ! БОЕЦ Russia"
+  },
+  {
+    "no": 305,
+    "id": 84,
+    "channelName": "Movistar Laliga"
+  },
+  {
+    "no": 306,
+    "id": 435,
+    "channelName": "Movistar Liga de Campeones"
+  },
+  {
+    "no": 307,
+    "id": 436,
+    "channelName": "Movistar Deportes Spain"
+  },
+  {
+    "no": 308,
+    "id": 438,
+    "channelName": "Movistar Deportes 2 Spain"
+  },
+  {
+    "no": 309,
+    "id": 526,
+    "channelName": "Movistar Deportes 3 Spain"
+  },
+  {
+    "no": 310,
+    "id": 527,
+    "channelName": "Movistar Deportes 4 Spain"
+  },
+  {
+    "no": 311,
+    "id": 528,
+    "channelName": "Movistar Golf Spain"
+  },
+  {
+    "no": 312,
+    "id": 563,
+    "channelName": "Motowizja Poland"
+  },
+  {
+    "no": 313,
+    "id": 765,
+    "channelName": "MSG USA"
+  },
+  {
+    "no": 314,
+    "id": 327,
+    "channelName": "MSNBC"
+  },
+  {
+    "no": 315,
+    "id": 299,
+    "channelName": "Magnolia Network"
+  },
+  {
+    "no": 316,
+    "id": 367,
+    "channelName": "MTV UK"
+  },
+  {
+    "no": 317,
+    "id": 371,
+    "channelName": "MTV USA"
+  },
+  {
+    "no": 318,
+    "id": 377,
+    "channelName": "MUTV UK"
+  },
+  {
+    "no": 319,
+    "id": 646,
+    "channelName": "MAVTV USA"
+  },
+  {
+    "no": 320,
+    "id": 779,
+    "channelName": "Max Sport 1 Croatia"
+  },
+  {
+    "no": 321,
+    "id": 780,
+    "channelName": "Max Sport 2 Croatia"
+  },
+  {
+    "no": 322,
+    "id": 770,
+    "channelName": "Marquee Sports Network"
+  },
+  {
+    "no": 323,
+    "id": 472,
+    "channelName": "Max Sport 1 Bulgaria"
+  },
+  {
+    "no": 324,
+    "id": 473,
+    "channelName": "Max Sport 2 Bulgaria"
+  },
+  {
+    "no": 325,
+    "id": 474,
+    "channelName": "Max Sport 3 Bulgaria"
+  },
+  {
+    "no": 326,
+    "id": 475,
+    "channelName": "Max Sport 4 Bulgaria"
+  },
+  {
+    "no": 327,
+    "id": 399,
+    "channelName": "MLB Network USA"
+  },
+  {
+    "no": 328,
+    "id": 829,
+    "channelName": "MASN USA"
+  },
+  {
+    "no": 329,
+    "id": 654,
+    "channelName": "MY9TV USA"
+  },
+  {
+    "no": 330,
+    "id": 661,
+    "channelName": "Motor Trend"
+  },
+  {
+    "no": 331,
+    "id": 662,
+    "channelName": "METV USA"
+  },
+  {
+    "no": 332,
+    "id": 733,
+    "channelName": "MDR DE"
+  },
+  {
+    "no": 333,
+    "id": 749,
+    "channelName": "Mundotoro TV Spain"
+  },
+  {
+    "no": 334,
+    "id": 806,
+    "channelName": "MTV Denmark"
+  },
+  {
+    "no": 335,
+    "id": 663,
+    "channelName": "NHL Network USA"
+  },
+  {
+    "no": 336,
+    "id": 468,
+    "channelName": "Nova Sport Bulgaria"
+  },
+  {
+    "no": 337,
+    "id": 582,
+    "channelName": "Nova Sport Serbia"
+  },
+  {
+    "no": 338,
+    "id": 631,
+    "channelName": "Nova Sports 1 Greece"
+  },
+  {
+    "no": 339,
+    "id": 632,
+    "channelName": "Nova Sports 2 Greece"
+  },
+  {
+    "no": 340,
+    "id": 633,
+    "channelName": "Nova Sports 3 Greece"
+  },
+  {
+    "no": 341,
+    "id": 634,
+    "channelName": "Nova Sports 4 Greece"
+  },
+  {
+    "no": 342,
+    "id": 635,
+    "channelName": "Nova Sports 5 Greece"
+  },
+  {
+    "no": 343,
+    "id": 636,
+    "channelName": "Nova Sports 6 Greece"
+  },
+  {
+    "no": 344,
+    "id": 599,
+    "channelName": "Nova Sports Premier League Greece"
+  },
+  {
+    "no": 345,
+    "id": 637,
+    "channelName": "Nova Sports Start Greece"
+  },
+  {
+    "no": 346,
+    "id": 638,
+    "channelName": "Nova Sports Prime Greece"
+  },
+  {
+    "no": 347,
+    "id": 639,
+    "channelName": "Nova Sports News Greece"
+  },
+  {
+    "no": 348,
+    "id": 762,
+    "channelName": "NESN USA"
+  },
+  {
+    "no": 349,
+    "id": 53,
+    "channelName": "NBC USA"
+  },
+  {
+    "no": 350,
+    "id": 404,
+    "channelName": "NBA TV USA"
+  },
+  {
+    "no": 351,
+    "id": 776,
+    "channelName": "NBC Sports Chicago"
+  },
+  {
+    "no": 352,
+    "id": 777,
+    "channelName": "NBC Sports Philadelphia"
+  },
+  {
+    "no": 353,
+    "id": 778,
+    "channelName": "NBC Sports Washington"
+  },
+  {
+    "no": 354,
+    "id": 405,
+    "channelName": "NFL Network"
+  },
+  {
+    "no": 355,
+    "id": 753,
+    "channelName": "NBC Sports Bay Area"
+  },
+  {
+    "no": 356,
+    "id": 754,
+    "channelName": "NBC Sports Boston"
+  },
+  {
+    "no": 357,
+    "id": 755,
+    "channelName": "NBC Sports California"
+  },
+  {
+    "no": 358,
+    "id": 769,
+    "channelName": "NBCNY USA"
+  },
+  {
+    "no": 359,
+    "id": 480,
+    "channelName": "Nova TV Bulgaria"
+  },
+  {
+    "no": 360,
+    "id": 328,
+    "channelName": "National Geographic (NGC)"
+  },
+  {
+    "no": 361,
+    "id": 329,
+    "channelName": "NICK JR"
+  },
+  {
+    "no": 362,
+    "id": 330,
+    "channelName": "NICK"
+  },
+  {
+    "no": 363,
+    "id": 666,
+    "channelName": "Nick Music"
+  },
+  {
+    "no": 364,
+    "id": 649,
+    "channelName": "Nicktoons"
+  },
+  {
+    "no": 365,
+    "id": 736,
+    "channelName": "NDR DE"
+  },
+  {
+    "no": 366,
+    "id": 292,
+    "channelName": "NewsNation USA"
+  },
+  {
+    "no": 367,
+    "id": 613,
+    "channelName": "Newsmax USA"
+  },
+  {
+    "no": 368,
+    "id": 745,
+    "channelName": "Nat Geo Wild USA"
+  },
+  {
+    "no": 369,
+    "id": 835,
+    "channelName": "Noovo CA"
+  },
+  {
+    "no": 370,
+    "id": 771,
+    "channelName": "New! CWPIX 11"
+  },
+  {
+    "no": 371,
+    "id": 611,
+    "channelName": "OnTime Sports"
+  },
+  {
+    "no": 372,
+    "id": 612,
+    "channelName": "OnTime Sports 2"
+  },
+  {
+    "no": 373,
+    "id": 541,
+    "channelName": "ONE 1 HD Israel"
+  },
+  {
+    "no": 374,
+    "id": 542,
+    "channelName": "ONE 2 HD Israel"
+  },
+  {
+    "no": 375,
+    "id": 439,
+    "channelName": "Orange Sport 1 Romania"
+  },
+  {
+    "no": 376,
+    "id": 440,
+    "channelName": "Orange Sport 2 Romania"
+  },
+  {
+    "no": 377,
+    "id": 441,
+    "channelName": "Orange Sport 3 Romania"
+  },
+  {
+    "no": 378,
+    "id": 442,
+    "channelName": "Orange Sport 4 Romania"
+  },
+  {
+    "no": 379,
+    "id": 331,
+    "channelName": "Oprah Winfrey Network (OWN)"
+  },
+  {
+    "no": 380,
+    "id": 332,
+    "channelName": "Oxygen True Crime"
+  },
+  {
+    "no": 381,
+    "id": 562,
+    "channelName": "Polsat Poland"
+  },
+  {
+    "no": 382,
+    "id": 47,
+    "channelName": "Polsat Sport Poland"
+  },
+  {
+    "no": 383,
+    "id": 50,
+    "channelName": "Polsat Sport Extra Poland"
+  },
+  {
+    "no": 384,
+    "id": 129,
+    "channelName": "Polsat Sport News Poland"
+  },
+  {
+    "no": 385,
+    "id": 443,
+    "channelName": "Polsat News Poland"
+  },
+  {
+    "no": 386,
+    "id": 564,
+    "channelName": "Polsat Film Poland"
+  },
+  {
+    "no": 387,
+    "id": 718,
+    "channelName": "Porto Canal Portugal"
+  },
+  {
+    "no": 388,
+    "id": 730,
+    "channelName": "ProSieben (PRO7) DE"
+  },
+  {
+    "no": 389,
+    "id": 450,
+    "channelName": "PTV Sports"
+  },
+  {
+    "no": 390,
+    "id": 88,
+    "channelName": "Premier Brasil"
+  },
+  {
+    "no": 391,
+    "id": 583,
+    "channelName": "Prima Sport 1"
+  },
+  {
+    "no": 392,
+    "id": 584,
+    "channelName": "Prima Sport 2"
+  },
+  {
+    "no": 393,
+    "id": 585,
+    "channelName": "Prima Sport 3"
+  },
+  {
+    "no": 394,
+    "id": 586,
+    "channelName": "Prima Sport 4"
+  },
+  {
+    "no": 395,
+    "id": 334,
+    "channelName": "Paramount Network"
+  },
+  {
+    "no": 396,
+    "id": 653,
+    "channelName": "POP TV USA"
+  },
+  {
+    "no": 397,
+    "id": 364,
+    "channelName": "RTE 1"
+  },
+  {
+    "no": 398,
+    "id": 365,
+    "channelName": "RTE 2"
+  },
+  {
+    "no": 399,
+    "id": 119,
+    "channelName": "RMC Sport 1 France"
+  },
+  {
+    "no": 400,
+    "id": 120,
+    "channelName": "RMC Sport 2 France"
+  },
+  {
+    "no": 401,
+    "id": 719,
+    "channelName": "RTP 1 Portugal"
+  },
+  {
+    "no": 402,
+    "id": 720,
+    "channelName": "RTP 2 Portugal"
+  },
+  {
+    "no": 403,
+    "id": 721,
+    "channelName": "RTP 3 Portugal"
+  },
+  {
+    "no": 404,
+    "id": 850,
+    "channelName": "Rai 1 Italy"
+  },
+  {
+    "no": 405,
+    "id": 851,
+    "channelName": "Rai 2 Italy"
+  },
+  {
+    "no": 406,
+    "id": 852,
+    "channelName": "Rai 3 Italy"
+  },
+  {
+    "no": 407,
+    "id": 853,
+    "channelName": "Rai 3 Italy"
+  },
+  {
+    "no": 408,
+    "id": 882,
+    "channelName": "Rai Sport Italy"
+  },
+  {
+    "no": 409,
+    "id": 858,
+    "channelName": "Rai Premium Italy"
+  },
+  {
+    "no": 410,
+    "id": 523,
+    "channelName": "Real Madrid TV Spain"
+  },
+  {
+    "no": 411,
+    "id": 839,
+    "channelName": "RDS CA"
+  },
+  {
+    "no": 412,
+    "id": 840,
+    "channelName": "RDS 2 CA"
+  },
+  {
+    "no": 413,
+    "id": 841,
+    "channelName": "RDS Info CA"
+  },
+  {
+    "no": 414,
+    "id": 471,
+    "channelName": "Ring Bulgaria"
+  },
+  {
+    "no": 415,
+    "id": 390,
+    "channelName": "RTL7 Netherland"
+  },
+  {
+    "no": 416,
+    "id": 555,
+    "channelName": "Racing Tv UK"
+  },
+  {
+    "no": 417,
+    "id": 293,
+    "channelName": "Reelz Channel"
+  },
+  {
+    "no": 418,
+    "id": 35,
+    "channelName": "Sky Sports Football UK"
+  },
+  {
+    "no": 419,
+    "id": 36,
+    "channelName": "Sky Sports Arena UK"
+  },
+  {
+    "no": 420,
+    "id": 37,
+    "channelName": "Sky Sports Action UK"
+  },
+  {
+    "no": 421,
+    "id": 38,
+    "channelName": "Sky Sports Main Event"
+  },
+  {
+    "no": 422,
+    "id": 130,
+    "channelName": "Sky sports Premier League"
+  },
+  {
+    "no": 423,
+    "id": 60,
+    "channelName": "Sky Sports F1 UK"
+  },
+  {
+    "no": 424,
+    "id": 65,
+    "channelName": "Sky Sports Cricket"
+  },
+  {
+    "no": 425,
+    "id": 70,
+    "channelName": "Sky Sports Golf UK"
+  },
+  {
+    "no": 426,
+    "id": 574,
+    "channelName": "Sky Sports Golf Italy"
+  },
+  {
+    "no": 427,
+    "id": 575,
+    "channelName": "Sky Sport MotoGP Italy"
+  },
+  {
+    "no": 428,
+    "id": 576,
+    "channelName": "Sky Sport Tennis Italy"
+  },
+  {
+    "no": 429,
+    "id": 577,
+    "channelName": "Sky Sport F1 Italy"
+  },
+  {
+    "no": 430,
+    "id": 366,
+    "channelName": "Sky Sports News UK"
+  },
+  {
+    "no": 431,
+    "id": 449,
+    "channelName": "Sky Sports MIX UK"
+  },
+  {
+    "no": 432,
+    "id": 556,
+    "channelName": "Sky Sport Top Event DE"
+  },
+  {
+    "no": 433,
+    "id": 557,
+    "channelName": "Sky Sport Mix DE"
+  },
+  {
+    "no": 434,
+    "id": 558,
+    "channelName": "Sky Sport Bundesliga 1 HD"
+  },
+  {
+    "no": 435,
+    "id": 559,
+    "channelName": "Sky Sport Austria 1 HD"
+  },
+  {
+    "no": 436,
+    "id": 759,
+    "channelName": "SportsNet New York (SNY)"
+  },
+  {
+    "no": 437,
+    "id": 460,
+    "channelName": "Sky Sport Football Italy"
+  },
+  {
+    "no": 438,
+    "id": 461,
+    "channelName": "Sky Sport UNO Italy"
+  },
+  {
+    "no": 439,
+    "id": 462,
+    "channelName": "Sky Sport Arena Italy"
+  },
+  {
+    "no": 440,
+    "id": 554,
+    "channelName": "Sky Sports Racing UK"
+  },
+  {
+    "no": 441,
+    "id": 881,
+    "channelName": "Sky UNO Italy"
+  },
+  {
+    "no": 442,
+    "id": 588,
+    "channelName": "Sky Sport 1 NZ"
+  },
+  {
+    "no": 443,
+    "id": 589,
+    "channelName": "Sky Sport 2 NZ"
+  },
+  {
+    "no": 444,
+    "id": 590,
+    "channelName": "Sky Sport 3 NZ"
+  },
+  {
+    "no": 445,
+    "id": 591,
+    "channelName": "Sky Sport 4 NZ"
+  },
+  {
+    "no": 446,
+    "id": 592,
+    "channelName": "Sky Sport 5 NZ"
+  },
+  {
+    "no": 447,
+    "id": 593,
+    "channelName": "Sky Sport 6 NZ"
+  },
+  {
+    "no": 448,
+    "id": 594,
+    "channelName": "Sky Sport 7 NZ"
+  },
+  {
+    "no": 449,
+    "id": 595,
+    "channelName": "Sky Sport 8 NZ"
+  },
+  {
+    "no": 450,
+    "id": 596,
+    "channelName": "Sky Sport 9 NZ"
+  },
+  {
+    "no": 451,
+    "id": 587,
+    "channelName": "Sky Sport Select NZ"
+  },
+  {
+    "no": 452,
+    "id": 49,
+    "channelName": "Sport TV1 Portugal"
+  },
+  {
+    "no": 453,
+    "id": 74,
+    "channelName": "Sport TV2 Portugal"
+  },
+  {
+    "no": 454,
+    "id": 289,
+    "channelName": "Sport TV4 Portugal"
+  },
+  {
+    "no": 455,
+    "id": 454,
+    "channelName": "Sport TV3 Portugal"
+  },
+  {
+    "no": 456,
+    "id": 290,
+    "channelName": "Sport TV5 Portugal"
+  },
+  {
+    "no": 457,
+    "id": 291,
+    "channelName": "Sport TV6 Portugal"
+  },
+  {
+    "no": 458,
+    "id": 722,
+    "channelName": "SIC Portugal"
+  },
+  {
+    "no": 459,
+    "id": 385,
+    "channelName": "SEC Network USA"
+  },
+  {
+    "no": 460,
+    "id": 78,
+    "channelName": "SporTV Brasil"
+  },
+  {
+    "no": 461,
+    "id": 79,
+    "channelName": "SporTV2 Brasil"
+  },
+  {
+    "no": 462,
+    "id": 80,
+    "channelName": "SporTV3 Brasil"
+  },
+  {
+    "no": 463,
+    "id": 101,
+    "channelName": "Sport Klub 1 Serbia"
+  },
+  {
+    "no": 464,
+    "id": 102,
+    "channelName": "Sport Klub 2 Serbia"
+  },
+  {
+    "no": 465,
+    "id": 103,
+    "channelName": "Sport Klub 3 Serbia"
+  },
+  {
+    "no": 466,
+    "id": 104,
+    "channelName": "Sport Klub 4 Serbia"
+  },
+  {
+    "no": 467,
+    "id": 453,
+    "channelName": "Sport Klub HD Serbia"
+  },
+  {
+    "no": 468,
+    "id": 406,
+    "channelName": "Sportsnet Ontario"
+  },
+  {
+    "no": 469,
+    "id": 411,
+    "channelName": "Sportsnet One"
+  },
+  {
+    "no": 470,
+    "id": 407,
+    "channelName": "Sportsnet West"
+  },
+  {
+    "no": 471,
+    "id": 408,
+    "channelName": "Sportsnet East"
+  },
+  {
+    "no": 472,
+    "id": 409,
+    "channelName": "Sportsnet 360"
+  },
+  {
+    "no": 473,
+    "id": 410,
+    "channelName": "Sportsnet World"
+  },
+  {
+    "no": 474,
+    "id": 412,
+    "channelName": "SuperSport Grandstand"
+  },
+  {
+    "no": 475,
+    "id": 413,
+    "channelName": "SuperSport PSL"
+  },
+  {
+    "no": 476,
+    "id": 414,
+    "channelName": "SuperSport Premier league"
+  },
+  {
+    "no": 477,
+    "id": 415,
+    "channelName": "SuperSport LaLiga"
+  },
+  {
+    "no": 478,
+    "id": 416,
+    "channelName": "SuperSport Variety 1"
+  },
+  {
+    "no": 479,
+    "id": 417,
+    "channelName": "SuperSport Variety 2"
+  },
+  {
+    "no": 480,
+    "id": 418,
+    "channelName": "SuperSport Variety 3"
+  },
+  {
+    "no": 481,
+    "id": 419,
+    "channelName": "SuperSport Variety 4"
+  },
+  {
+    "no": 482,
+    "id": 420,
+    "channelName": "SuperSport Action"
+  },
+  {
+    "no": 483,
+    "id": 421,
+    "channelName": "SuperSport Rugby"
+  },
+  {
+    "no": 484,
+    "id": 422,
+    "channelName": "SuperSport Golf"
+  },
+  {
+    "no": 485,
+    "id": 423,
+    "channelName": "SuperSport Tennis"
+  },
+  {
+    "no": 486,
+    "id": 424,
+    "channelName": "SuperSport Motorsport"
+  },
+  {
+    "no": 487,
+    "id": 56,
+    "channelName": "Supersport Football"
+  },
+  {
+    "no": 488,
+    "id": 368,
+    "channelName": "SuperSport Cricket"
+  },
+  {
+    "no": 489,
+    "id": 572,
+    "channelName": "SuperSport MaXimo 1"
+  },
+  {
+    "no": 490,
+    "id": 716,
+    "channelName": "Sporting TV Portugal"
+  },
+  {
+    "no": 491,
+    "id": 571,
+    "channelName": "SportDigital Fussball"
+  },
+  {
+    "no": 492,
+    "id": 764,
+    "channelName": "Spectrum Sportsnet LA"
+  },
+  {
+    "no": 493,
+    "id": 640,
+    "channelName": "Sport1+ Germany"
+  },
+  {
+    "no": 494,
+    "id": 641,
+    "channelName": "Sport1 Germany"
+  },
+  {
+    "no": 495,
+    "id": 670,
+    "channelName": "S4C UK"
+  },
+  {
+    "no": 496,
+    "id": 729,
+    "channelName": "SAT.1 DE"
+  },
+  {
+    "no": 497,
+    "id": 671,
+    "channelName": "Sky Cinema Premiere UK"
+  },
+  {
+    "no": 498,
+    "id": 672,
+    "channelName": "Sky Cinema Select UK"
+  },
+  {
+    "no": 499,
+    "id": 673,
+    "channelName": "Sky Cinema Hits UK"
+  },
+  {
+    "no": 500,
+    "id": 674,
+    "channelName": "Sky Cinema Greats UK"
+  },
+  {
+    "no": 501,
+    "id": 675,
+    "channelName": "Sky Cinema Animation UK"
+  },
+  {
+    "no": 502,
+    "id": 676,
+    "channelName": "Sky Cinema Family UK"
+  },
+  {
+    "no": 503,
+    "id": 677,
+    "channelName": "Sky Cinema Action UK"
+  },
+  {
+    "no": 504,
+    "id": 678,
+    "channelName": "The Hallmark"
+  },
+  {
+    "no": 505,
+    "id": 679,
+    "channelName": "Sky Cinema Thriller UK"
+  },
+  {
+    "no": 506,
+    "id": 680,
+    "channelName": "The Hallmark"
+  },
+  {
+    "no": 507,
+    "id": 681,
+    "channelName": "Sky Cinema Sci-Fi Horror UK"
+  },
+  {
+    "no": 508,
+    "id": 859,
+    "channelName": "Sky Cinema Collection Italy"
+  },
+  {
+    "no": 509,
+    "id": 860,
+    "channelName": "Sky Cinema Uno Italy"
+  },
+  {
+    "no": 510,
+    "id": 861,
+    "channelName": "Sky Cinema Action Italy"
+  },
+  {
+    "no": 511,
+    "id": 862,
+    "channelName": "8Sky Cinema Comedy Italy"
+  },
+  {
+    "no": 512,
+    "id": 863,
+    "channelName": "Sky Cinema Uno +24 Italy"
+  },
+  {
+    "no": 513,
+    "id": 864,
+    "channelName": "Sky Cinema Romance Italy"
+  },
+  {
+    "no": 514,
+    "id": 865,
+    "channelName": "Sky Cinema Family Italy"
+  },
+  {
+    "no": 515,
+    "id": 866,
+    "channelName": "Sky Cinema Due +24 Italy"
+  },
+  {
+    "no": 516,
+    "id": 867,
+    "channelName": "Sky Cinema Drama Italy"
+  },
+  {
+    "no": 517,
+    "id": 868,
+    "channelName": "8Sky Cinema Suspense Italy"
+  },
+  {
+    "no": 518,
+    "id": 869,
+    "channelName": "Sky Sport 24 Italy"
+  },
+  {
+    "no": 519,
+    "id": 870,
+    "channelName": "Sky Sport Calcio Italy"
+  },
+  {
+    "no": 520,
+    "id": 871,
+    "channelName": "Sky Calcio 1 (251) Italy"
+  },
+  {
+    "no": 521,
+    "id": 872,
+    "channelName": "Sky Calcio 2 (252) Italy"
+  },
+  {
+    "no": 522,
+    "id": 873,
+    "channelName": "Sky Calcio 3 (253) Italy"
+  },
+  {
+    "no": 523,
+    "id": 874,
+    "channelName": "Sky Calcio 4 (254) Italy"
+  },
+  {
+    "no": 524,
+    "id": 875,
+    "channelName": "Sky Calcio 5 (255) Italy"
+  },
+  {
+    "no": 525,
+    "id": 876,
+    "channelName": "Sky Calcio 6 (256) Italy"
+  },
+  {
+    "no": 526,
+    "id": 877,
+    "channelName": "Sky Calcio 7 (257) Italy"
+  },
+  {
+    "no": 527,
+    "id": 880,
+    "channelName": "Sky Serie Italy"
+  },
+  {
+    "no": 528,
+    "id": 284,
+    "channelName": "StarzPlay CricLife 1 HD"
+  },
+  {
+    "no": 529,
+    "id": 283,
+    "channelName": "StarzPlay CricLife 2 HD"
+  },
+  {
+    "no": 530,
+    "id": 282,
+    "channelName": "StarzPlay CricLife 3 HD"
+  },
+  {
+    "no": 531,
+    "id": 682,
+    "channelName": "Sky Showcase UK"
+  },
+  {
+    "no": 532,
+    "id": 683,
+    "channelName": "Sky Arts UK"
+  },
+  {
+    "no": 533,
+    "id": 684,
+    "channelName": "Sky Comedy UK"
+  },
+  {
+    "no": 534,
+    "id": 685,
+    "channelName": "Sky Crime"
+  },
+  {
+    "no": 535,
+    "id": 686,
+    "channelName": "Sky History"
+  },
+  {
+    "no": 536,
+    "id": 614,
+    "channelName": "SSC Sport 1"
+  },
+  {
+    "no": 537,
+    "id": 615,
+    "channelName": "SSC Sport 2"
+  },
+  {
+    "no": 538,
+    "id": 616,
+    "channelName": "SSC Sport 3"
+  },
+  {
+    "no": 539,
+    "id": 617,
+    "channelName": "SSC Sport 4"
+  },
+  {
+    "no": 540,
+    "id": 618,
+    "channelName": "SSC Sport 5"
+  },
+  {
+    "no": 541,
+    "id": 619,
+    "channelName": "SSC Sport Extra 1"
+  },
+  {
+    "no": 542,
+    "id": 620,
+    "channelName": "SSC Sport Extra 2"
+  },
+  {
+    "no": 543,
+    "id": 621,
+    "channelName": "SSC Sport Extra 3"
+  },
+  {
+    "no": 544,
+    "id": 140,
+    "channelName": "Sport 1 Israel"
+  },
+  {
+    "no": 545,
+    "id": 141,
+    "channelName": "Sport 2 Israel"
+  },
+  {
+    "no": 546,
+    "id": 142,
+    "channelName": "Sport 3 Israel"
+  },
+  {
+    "no": 547,
+    "id": 143,
+    "channelName": "Sport 4 Israel"
+  },
+  {
+    "no": 548,
+    "id": 144,
+    "channelName": "Sport 5 Israel"
+  },
+  {
+    "no": 549,
+    "id": 145,
+    "channelName": "Sport 5 PLUS Israel"
+  },
+  {
+    "no": 550,
+    "id": 146,
+    "channelName": "Sport 5 Live Israel"
+  },
+  {
+    "no": 551,
+    "id": 147,
+    "channelName": "Sport 5 Star Israel"
+  },
+  {
+    "no": 552,
+    "id": 148,
+    "channelName": "Sport 5 Gold Israel"
+  },
+  {
+    "no": 553,
+    "id": 294,
+    "channelName": "Science Channel"
+  },
+  {
+    "no": 554,
+    "id": 333,
+    "channelName": "Showtime USA"
+  },
+  {
+    "no": 555,
+    "id": 685,
+    "channelName": "Showtime SHOxBET USA"
+  },
+  {
+    "no": 556,
+    "id": 335,
+    "channelName": "Starz"
+  },
+  {
+    "no": 557,
+    "id": 361,
+    "channelName": "Sky Witness HD"
+  },
+  {
+    "no": 558,
+    "id": 732,
+    "channelName": "Sixx DE"
+  },
+  {
+    "no": 559,
+    "id": 362,
+    "channelName": "Sky Atlantic"
+  },
+  {
+    "no": 560,
+    "id": 373,
+    "channelName": "SYFY USA"
+  },
+  {
+    "no": 561,
+    "id": 658,
+    "channelName": "Sundance TV"
+  },
+  {
+    "no": 562,
+    "id": 735,
+    "channelName": "SWR DE"
+  },
+  {
+    "no": 563,
+    "id": 738,
+    "channelName": "SUPER RTL DE"
+  },
+  {
+    "no": 564,
+    "id": 739,
+    "channelName": "SR Fernsehen DE"
+  },
+  {
+    "no": 565,
+    "id": 603,
+    "channelName": "Smithsonian Channel"
+  },
+  {
+    "no": 566,
+    "id": 31,
+    "channelName": "TNT Sports 1 UK"
+  },
+  {
+    "no": 567,
+    "id": 32,
+    "channelName": "TNT Sports 2 UK"
+  },
+  {
+    "no": 568,
+    "id": 33,
+    "channelName": "TNT Sports 3 UK"
+  },
+  {
+    "no": 569,
+    "id": 34,
+    "channelName": "TNT Sports 4 UK"
+  },
+  {
+    "no": 570,
+    "id": 111,
+    "channelName": "TSN1"
+  },
+  {
+    "no": 571,
+    "id": 112,
+    "channelName": "TSN2"
+  },
+  {
+    "no": 572,
+    "id": 113,
+    "channelName": "TSN3"
+  },
+  {
+    "no": 573,
+    "id": 114,
+    "channelName": "TSN4"
+  },
+  {
+    "no": 574,
+    "id": 115,
+    "channelName": "TSN5"
+  },
+  {
+    "no": 575,
+    "id": 565,
+    "channelName": "TVN HD Poland"
+  },
+  {
+    "no": 576,
+    "id": 444,
+    "channelName": "TVN24 Poland"
+  },
+  {
+    "no": 577,
+    "id": 560,
+    "channelName": "TVP1 Poland"
+  },
+  {
+    "no": 578,
+    "id": 561,
+    "channelName": "TVP2 Poland"
+  },
+  {
+    "no": 579,
+    "id": 532,
+    "channelName": "Telecinco Spain"
+  },
+  {
+    "no": 580,
+    "id": 533,
+    "channelName": "TVE La 1 Spain"
+  },
+  {
+    "no": 581,
+    "id": 536,
+    "channelName": "TVE La 2 Spain"
+  },
+  {
+    "no": 582,
+    "id": 723,
+    "channelName": "TVI Portugal"
+  },
+  {
+    "no": 583,
+    "id": 724,
+    "channelName": "TVI Reality Portugal"
+  },
+  {
+    "no": 584,
+    "id": 529,
+    "channelName": "Teledeporte Spain (TDP)"
+  },
+  {
+    "no": 585,
+    "id": 746,
+    "channelName": "TYC Sports Argentina"
+  },
+  {
+    "no": 586,
+    "id": 128,
+    "channelName": "TVP Sport Poland"
+  },
+  {
+    "no": 587,
+    "id": 87,
+    "channelName": "TNT Brasil"
+  },
+  {
+    "no": 588,
+    "id": 388,
+    "channelName": "TNT Sports Argentina"
+  },
+  {
+    "no": 589,
+    "id": 642,
+    "channelName": "TNT Sports HD Chile"
+  },
+  {
+    "no": 590,
+    "id": 40,
+    "channelName": "Tennis Channel"
+  },
+  {
+    "no": 591,
+    "id": 741,
+    "channelName": "Ten Sports PK"
+  },
+  {
+    "no": 592,
+    "id": 66,
+    "channelName": "TUDN USA"
+  },
+  {
+    "no": 593,
+    "id": 131,
+    "channelName": "Telemundo"
+  },
+  {
+    "no": 594,
+    "id": 336,
+    "channelName": "TBS USA"
+  },
+  {
+    "no": 595,
+    "id": 337,
+    "channelName": "TLC"
+  },
+  {
+    "no": 596,
+    "id": 338,
+    "channelName": "TNT USA"
+  },
+  {
+    "no": 597,
+    "id": 833,
+    "channelName": "TVA Sports"
+  },
+  {
+    "no": 598,
+    "id": 834,
+    "channelName": "TVA Sports 2"
+  },
+  {
+    "no": 599,
+    "id": 340,
+    "channelName": "Travel Channel"
+  },
+  {
+    "no": 600,
+    "id": 341,
+    "channelName": "TruTV USA"
+  },
+  {
+    "no": 601,
+    "id": 342,
+    "channelName": "TVLAND"
+  },
+  {
+    "no": 602,
+    "id": 644,
+    "channelName": "TCM USA"
+  },
+  {
+    "no": 603,
+    "id": 698,
+    "channelName": "TMC Channel USA"
+  },
+  {
+    "no": 604,
+    "id": 384,
+    "channelName": "The Food Network"
+  },
+  {
+    "no": 605,
+    "id": 394,
+    "channelName": "The Weather Channel"
+  },
+  {
+    "no": 606,
+    "id": 452,
+    "channelName": "TVP INFO"
+  },
+  {
+    "no": 607,
+    "id": 650,
+    "channelName": "TeenNick"
+  },
+  {
+    "no": 608,
+    "id": 660,
+    "channelName": "TV ONE USA"
+  },
+  {
+    "no": 609,
+    "id": 807,
+    "channelName": "TV2 Bornholm Denmark"
+  },
+  {
+    "no": 610,
+    "id": 808,
+    "channelName": "TV2 Sport X Denmark"
+  },
+  {
+    "no": 611,
+    "id": 809,
+    "channelName": "TV3 Sport Denmark"
+  },
+  {
+    "no": 612,
+    "id": 810,
+    "channelName": "TV2 Sport Denmark"
+  },
+  {
+    "no": 613,
+    "id": 817,
+    "channelName": "TV2 Denmark"
+  },
+  {
+    "no": 614,
+    "id": 818,
+    "channelName": "TV2 Zulu"
+  },
+  {
+    "no": 615,
+    "id": 819,
+    "channelName": "TV3+ Denmark"
+  },
+  {
+    "no": 616,
+    "id": 842,
+    "channelName": "TVO CA"
+  },
+  {
+    "no": 617,
+    "id": 700,
+    "channelName": "Tennis+ 1"
+  },
+  {
+    "no": 618,
+    "id": 701,
+    "channelName": "Tennis+ 2"
+  },
+  {
+    "no": 619,
+    "id": 702,
+    "channelName": "Tennis+ 3"
+  },
+  {
+    "no": 620,
+    "id": 703,
+    "channelName": "Tennis+ 4"
+  },
+  {
+    "no": 621,
+    "id": 704,
+    "channelName": "Tennis+ 5"
+  },
+  {
+    "no": 622,
+    "id": 705,
+    "channelName": "Tennis+ 6"
+  },
+  {
+    "no": 623,
+    "id": 706,
+    "channelName": "Tennis+ 7"
+  },
+  {
+    "no": 624,
+    "id": 707,
+    "channelName": "Tennis+ 8"
+  },
+  {
+    "no": 625,
+    "id": 708,
+    "channelName": "Tennis+ 9"
+  },
+  {
+    "no": 626,
+    "id": 709,
+    "channelName": "Tennis+ 10"
+  },
+  {
+    "no": 627,
+    "id": 710,
+    "channelName": "Tennis+ 11"
+  },
+  {
+    "no": 628,
+    "id": 711,
+    "channelName": "Tennis+ 12"
+  },
+  {
+    "no": 629,
+    "id": 712,
+    "channelName": "Tennis+ 13"
+  },
+  {
+    "no": 630,
+    "id": 713,
+    "channelName": "Tennis+ 14"
+  },
+  {
+    "no": 631,
+    "id": 714,
+    "channelName": "Tennis+ 15"
+  },
+  {
+    "no": 632,
+    "id": 343,
+    "channelName": "USA Network"
+  },
+  {
+    "no": 633,
+    "id": 668,
+    "channelName": "Universal Kids USA"
+  },
+  {
+    "no": 634,
+    "id": 132,
+    "channelName": "Univision"
+  },
+  {
+    "no": 635,
+    "id": 133,
+    "channelName": "Unimas"
+  },
+  {
+    "no": 636,
+    "id": 451,
+    "channelName": "Viaplay Sports 1 UK"
+  },
+  {
+    "no": 637,
+    "id": 550,
+    "channelName": "Viaplay Sports 2 UK"
+  },
+  {
+    "no": 638,
+    "id": 597,
+    "channelName": "Viaplay Xtra UK"
+  },
+  {
+    "no": 639,
+    "id": 521,
+    "channelName": "#Vamos Spain"
+  },
+  {
+    "no": 640,
+    "id": 815,
+    "channelName": "V Film Premiere"
+  },
+  {
+    "no": 641,
+    "id": 816,
+    "channelName": "V Film Family"
+  },
+  {
+    "no": 642,
+    "id": 344,
+    "channelName": "VH1 USA"
+  },
+  {
+    "no": 643,
+    "id": 378,
+    "channelName": "Veronica NL Netherland"
+  },
+  {
+    "no": 644,
+    "id": 391,
+    "channelName": "VTV+ Uruguay"
+  },
+  {
+    "no": 645,
+    "id": 659,
+    "channelName": "VICE TV"
+  },
+  {
+    "no": 646,
+    "id": 346,
+    "channelName": "Willow Cricket"
+  },
+  {
+    "no": 647,
+    "id": 598,
+    "channelName": "Willow XTRA"
+  },
+  {
+    "no": 648,
+    "id": 376,
+    "channelName": "WWE Network"
+  },
+  {
+    "no": 649,
+    "id": 392,
+    "channelName": "Win Sports+ Columbia"
+  },
+  {
+    "no": 650,
+    "id": 655,
+    "channelName": "WETV USA"
+  },
+  {
+    "no": 651,
+    "id": 734,
+    "channelName": "WDR DE"
+  },
+  {
+    "no": 652,
+    "id": 763,
+    "channelName": "YES Network USA"
+  },
+  {
+    "no": 653,
+    "id": 543,
+    "channelName": "Yes Movies Action Israel"
+  },
+  {
+    "no": 654,
+    "id": 544,
+    "channelName": "Yes Movies Kids Israel"
+  },
+  {
+    "no": 655,
+    "id": 545,
+    "channelName": "Yes Movies Comedy Israel"
+  },
+  {
+    "no": 656,
+    "id": 609,
+    "channelName": "Yas TV UAE"
+  },
+  {
+    "no": 657,
+    "id": 837,
+    "channelName": "Yes TV CA"
+  },
+  {
+    "no": 658,
+    "id": 383,
+    "channelName": "Ziggo Sport Docu NL"
+  },
+  {
+    "no": 659,
+    "id": 393,
+    "channelName": "Ziggo Sport Select NL"
+  },
+  {
+    "no": 660,
+    "id": 396,
+    "channelName": "Ziggo Sport Racing NL"
+  },
+  {
+    "no": 661,
+    "id": 398,
+    "channelName": "Ziggo Sport Voetbal NL"
+  },
+  {
+    "no": 662,
+    "id": 727,
+    "channelName": "BBC 1 DE"
+  },
+  {
+    "no": 663,
+    "id": 728,
+    "channelName": "ZDF Info DE"
+  },
+  {
+    "no": 664,
+    "id": 857,
+    "channelName": "20 Mediaset Italy"
+  },
+  {
+    "no": 665,
+    "id": 800,
+    "channelName": "6'eren Denmark"
+  },
+  {
+    "no": 666,
+    "id": 437,
+    "channelName": "#0 Spain"
+  },
+  {
+    "no": 667,
+    "id": 360,
+    "channelName": "5 USA"
+  },
+  {
+    "no": 668,
+    "id": 726,
+    "channelName": "3sat DE"
+  }
+]
