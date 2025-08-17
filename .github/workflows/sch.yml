@@ -11,18 +11,30 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        persist-credentials: true  # Important to allow push back to repo
 
     - uses: actions/setup-python@v4
       with:
         python-version: 3.12
 
-    - run: pip install requests
+    - name: Install dependencies
+      run: pip install requests
 
-    - run: python sch.py
+    - name: Run update script
+      run: python update_schedule.py
 
-    - run: |
+    - name: Commit and push changes (if any)
+      run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add dlhd.json
-        git commit -m "🔄 Auto-update schedule" || echo "No changes to commit"
-        git push
+
+        # Check for changes
+        if git diff --cached --quiet; then
+          echo "✅ No changes to commit."
+        else
+          git commit -m "🔄 Auto-update schedule"
+          git push
+          echo "🚀 Changes pushed."
+        fi
